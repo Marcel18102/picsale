@@ -1,0 +1,54 @@
+<!-- art.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Page - PICSALE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Remachine+Script&display=swap">
+</head>
+<body>
+    <header>
+        <h1 class="logo">PICSALE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="#animals">Animals</a></li>
+                <li><a href="#cooking">Cooking</a></li>
+                <li><a href="#fantasy">Fantasy</a></li>
+                <li><a href="#world">World</a></li>
+                <li><a href="#others">Others</a></li>
+                <li><a href="#tcs">T&Cs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="art-page">
+        <div class="art-box" id="artBox1">
+            <img src="art_image1.jpg" alt="Art 1">
+            <p>$1</p>
+            <button onclick="buyImage('art_image1.jpg')">Buy</button>
+        </div>
+        <div class="art-box" id="artBox2">
+            <img src="_edcba938-4e28-4be9-a2fe-3d8ba0aa04d3.jpeg" alt="Art 2">
+            <button onclick="downloadImage('art_image2.jpg')">Download</button>
+        </div>
+        <div class="art-box" id="artBox3">
+            <img src="_39e9b5e3-1c79-444a-80d1-3014d314a9e1.jpeg" alt="Art 3">
+            <button onclick="downloadImage('art_image3.jpg')">Download</button>
+        </div>
+        <div class="art-box" id="artBox4">
+            <img src="_5c74dfd9-b8dc-421f-b65e-d24188e8399d.jpeg" alt="Art 4">
+            <button onclick="downloadImage('art_image4.jpg')">Download</button>
+        </div>
+        <!-- Repeat the above structure for additional art boxes if needed -->
+    </div>
+
+    
+
+    <script src="art.js"></script>
+</body>
+</html>

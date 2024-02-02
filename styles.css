@@ -1,0 +1,118 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Dark background color */
+    color: #ccc; /* Light text color */
+}
+
+header {
+    background-color: #111; /* Darken the header background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1.logo {
+    font-family: 'Remachine Script', cursive; /* Change font to Remachine Script */
+    font-size: 60px; /* Make the font much bigger */
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #444; /* Darken the nav button background color */
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #666; /* Darken the nav button hover background color */
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.preview-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Darken the background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.preview-box {
+    display: flex;
+    justify-content: space-around;
+    width: 30%; /* Adjust the width of the preview boxes */
+}
+
+.preview-box img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-right: 5px; /* Reduce the margin between images */
+}
+
+.tap-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #444; /* Darken the background color */
+    color: #ccc; /* Light text color */
+    margin: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted column width */
+    gap: 20px;
+    padding: 20px;
+}
+
+.art-item {
+    border: 1px solid #444; /* Darken the border color */
+    padding: 10px;
+    text-align: center;
+    background-color: #333; /* Darken the background color */
+    width: 45%; /* Adjust the width of the art items to fit two side by side */
+    margin-bottom: 20px;
+}
+
+.art-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 5px; /* Reduce the margin between images */
+}
+
+footer {
+    background-color: #111; /* Darken the footer background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
